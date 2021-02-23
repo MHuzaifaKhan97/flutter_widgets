@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/widgets/7_fadeTransition.dart';
 // import './widgets/1_safeArea.dart';
 // import './widgets/2_expanded.dart';
 // import './widgets/3_wrap.dart';
 // import './widgets/4_animatedContainer.dart';
-import './widgets/5_opacity.dart';
+// import './widgets/5_opacity.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: OpacityExample(),
+      home: FadeTransitionExample(),
       // Scaffold(
       //   appBar: AppBar(
       //     title: Text(
