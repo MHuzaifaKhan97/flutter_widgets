@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/widgets/7_fadeTransition.dart';
+import 'package:flutter_widgets/widgets/10_table.dart';
+// import 'package:flutter_widgets/widgets/9_pageView.dart';
+// import 'package:flutter_widgets/widgets/8_floatingActionButton.dart';
+// import 'package:flutter_widgets/widgets/7_fadeTransition.dart';
 // import './widgets/1_safeArea.dart';
 // import './widgets/2_expanded.dart';
 // import './widgets/3_wrap.dart';
@@ -19,19 +22,14 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: FadeTransitionExample(),
-      // Scaffold(
-      //   appBar: AppBar(
-      //     title: Text(
-      //       'Flutter Widgets',
+      home: TableExample(),
+      // home: Scaffold(
+      //     appBar: AppBar(
+      //       title: Text(
+      //         'Flutter Widgets',
+      //       ),
       //     ),
-      //   ),
-      //   body: Container(
-      //     child: Column(
-      //       children: <Widget>[],
-      //     ),
-      //   ),
-      // ),
+      //     body: TableExample()),
     );
   }
 }
